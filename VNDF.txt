@@ -1,0 +1,1504 @@
+[VNDF]
+! Checksum: tlmdi7758932ddio
+! Version: 21.12.12.20
+! Title: Vietnam Daily Filter
+! Last modified: 12 Dec 2021 21:50 UTC+7
+! Expires: 
+!
+! Vietnam Daily Filter
+! Copyright: namhoang1235@gmail.com
+! Homepage: https://github.com/namhoang1235/VNDailyFilter
+! License: GPLv3 
+! Please report any unblocked ads or problems by email or in our fanpage
+! Mọi thắc mắc xin gửi về email hoặc fanpage
+! Email: namhoang1235@gmail.com
+! Report new issue on github: https://github.com/namhoang1235/VNDailyFilter/issues/new
+! ---------- Begin ----------
+!!google ads
+google.*##+js(aeld, DOMContentLoaded, CONSENT)
+google.com.vn##li.ads-ad
+google.com.vn#?#ol>li:-abp-has(span:-abp-contains(QC))
+google.ru###pmocntr2
+google.*,*.google.*###subform_ctrl
+google.*##.ads-ad
+google.*##div[data-flt-ve="sponsored_search_ads"]
+www.google.com##div[data-section-id] > a[href^="/aclk"][href*="placesheetAdFix="][href*="adurl="]:upward(1)
+youtube.com###masthead-ad
+youtube.com###video-masthead
+youtube.com###YtSparklesVisibilityIdentifier
+youtube.com##.ytd-promoted-sparkles-web-renderer
+youtube.com##.ytp-gradient-bottom
+youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
+youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
+youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
+youtube.com##ytd-display-ad-renderer
+youtube.com##ytd-search-pyv-renderer
+youtube.com##ytm-companion-slot
+youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
+||youtube.com/subscribe_widget^$third-party
+!!end-google
+!!reddit
+||redditstatic.com/desktop2x/vendors~LiveVideoPlayer~PublicAccessNetwork~RpanListingUnit.*.js$script
+reddit.com##a[href^="/rpan/r/"]>h3:has-text(Top broadcast):nth-ancestor(7)
+reddit.com##a[href="/rpan/r/"]>h3:has-text(Top livestream):nth-ancestor(7)
+reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
+reddit.com##._2jJNpBqXMbbyOiGCElTYxZ 
+reddit.com##._3VqiDbufgl9_EiV_tk9L6u 
+reddit.com##.Ab_CG1GZxb0mjtooTcgRC._1Pcih1cgtQusjyfxp7YPbP 
+reddit.com##._1dJtiWITrnvIbQdXgYgdym.jEUbSHJJx8vISKpWirlfx 
+reddit.com##._1vXXD2qKLnHetdKvisFzBD 
+reddit.com##._1x6pySZ2CoUnAfsFhGe7J1 
+reddit.com##.isNotInIcons2020.TMMvbwyeh9yuHKmQWHrE3._1HnfZtTmYelxTj6QL6aaXS._2uYY-KeuYHKiwl-9aF0UiL 
+reddit.com##._2QeqBqfT5UbHBoViZUt-wX._1G4yU68P50vRZ4USXfaceV._2YJDRz5rCYQfu8YdgB_neb 
+reddit.com##._288IzKhWMb7Dw403RofBU8._2h6EM3mo5Qn9Eqm18v5Hiz._1sDiFFHKyPJghjPpVTW7vB
+reddit.com##.m-redesign.m-default.PostHeader>:first-child>:first-child>:only-child>:only-child>:only-child>:nth-child(2)>:nth-child(3):upward(.Post)
+reddit.com##.premium-banner-outer
+reddit.com##.size-compact.Post:has([class*="promoted"])
+reddit.com##[data-testid="bottom-cell-wrapper"]
+reddit.com##a[href^="/rpan/"] > h3:has-text(/Top (livestream|broadcast)/):upward(7)
+reddit.com##article.Post:has(a[rel="nofollow noopener sponsored"])
+reddit.com##article:has(.PostHeader__promoted-flair)
+reddit.com##article:has-text(/P.*r.*o.*m.*o.*t.*e.*d/)
+reddit.com#?#div[data-redditstyle=false] + div:-abp-has(> div[data-redditstyle=true])
+reddit.com#?#div[style^="max-width:"][style*="1600px"] > div > div:nth-of-type(2):-abp-has(> div[data-redditstyle])
+reddit.com#?#div[style^="max-width:"][style*="1600px"] > div > div:nth-of-type(2):-abp-has(div[data-redditstyle])
+reddit.com#?#div[tabindex] > div > div:nth-of-type(2):-abp-has(> div > div[data-redditstyle])
+reddit.com#?#div[tabindex] > div > div:nth-of-type(2):-abp-has(> div[data-redditstyle])
+reddit.com,www.reddit.com##.promoted
+reddit.com,www.reddit.com##.promotedlink
+givemereddit.stream##+js(aopw, _pop)
+givemereddit.stream##+js(nowebrtc)
+reddit.com##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
+reddit.com##div[class][data-before-content="advertisement"]:not([id])
+reddit.com#?#.adLinkBar:upward(article[style="z-index: 1;"])
+##shreddit-comments-page-ad
+!!end-reddit
+!!spotify
+spotify.com##.ads-container
+/mp3-ad/*
+*cloudfront.net/mp3-ad/
+!!end-spotify
+!!+js
+##+js(abort-current-inline-script.js, compruebaAdblockPremium, setTimeout)
+##+js(abort-current-inline-script.js, document.onclick, popunder)
+##+js(abort-current-inline-script.js, Object.defineProperty, trafficjunky)
+##+js(abort-current-inline-script.js, TRAFF_TARGETS)
+##+js(abort-on-property-read.js, __tnt.adBlockEnabled)
+##+js(abort-on-property-read.js, adbDetect)
+##+js(abort-on-property-read.js, ads.pop_url)
+##+js(abort-on-property-read.js, adsDisabled)
+##+js(abort-on-property-read.js, adtoniq)
+##+js(abort-on-property-read.js, asgPopScript)
+##+js(abort-on-property-read.js, dataPopUnder)
+##+js(abort-on-property-read.js, detectAdBlock)
+##+js(abort-on-property-read.js, exoLaunchPN)
+##+js(abort-on-property-read.js, makePopunder, /^(?:pop2under|mypopunder|PopHelper|doPopunder)$/)
+##+js(abort-on-property-read.js, mdp_deblocker)
+##+js(abort-on-property-read.js, mdp-deblocker-ads)
+##+js(abort-on-property-read.js, popBlockAlert)
+##+js(abort-on-property-write.js, AdBlockDetect)
+##+js(abort-on-property-write.js, AdBlockDetectorWorkaround)
+##+js(abort-on-property-write.js, adBlockFunction)
+##+js(abort-on-property-write.js, adquestoConfig)
+##+js(abort-on-property-write.js, gothamBatAdblock)
+##+js(addEventListener-defuser.js, adblockActivated)
+##+js(aeld, DOMContentLoaded, AdBlocker)
+##+js(aopr, app_vars.force_disable_adblock)
+##+js(nobab)
+##+js(set-constant.js, check_adblock, true)
+##+js(set-constant.js, disableItToContinue, noopFunc)
+##+js(set-constant.js, is_adblocked, false)
+##+js(set-constant.js, IsPopAd, false)
+##+js(twitch-videoad)
+!!end-js
+!!facebook ads
+facebook.com###m_news_feed_stream article:has-text(/^(Suggested|Recommended|Post You May Like)/)
+facebook.com###mount_0_0_U2 > div:nth-child(2) > div:first-child > * > * > * > * > * > * > * > * > * > * > * > * > * > * > div:nth-child(2) > div:nth-child(4)
+facebook.com##[role="feed"] span[id] a[href^="/ads/about/"]:upward([role="feed"]>div)
+facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(display: none):remove()
+facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(position: absolute):remove()
+facebook.com##[role="feed"] span[id] a[href="#"]:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div):style(border: 8px dotted yellow !important)
+facebook.com##[role="feed"] span[id]>[role=button]:has-text(/^Sponsored|Paid for by/):upward([role="feed"]>div)
+facebook.com##[role="feed"]>div:has(a[aria-label*="Sponsored" i]))
+facebook.com##[role="feed"]>div:has(span[class] + [role*="n"] > span > span + span)
+facebook.com##[role="feed"]>div:has(span[class]:first-child + [role*="n"] > span:only-child > span:first-child + span:last-child
+facebook.com##[role="feed"]>div:has-text(/^(Suggested|Recommended|Post You May Like)/)
+facebook.com##div[data-pagelet*="FeedUnit"]:has(div:not([class]):not([id]):empty ~ div:not([class]):not([id]) > div:not([class]):not([id]) > div:not([class]):not([id]):first-child:has(span[dir="auto"]:only-child) + div:not([class]):not([id]) + div:not([class]):not([id]) + div:not([class]):not([id]):last-child)
+facebook.com##div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) > div > div[class]:has(> div[class] > div[class] div[class] > a[aria-label][href^="https://l.facebook.com/l.php?u="][target="_blank"])
+facebook.com##div[role="complementary"] > div > div > div > div > div > span
+facebook.com#?#[data-pagelet^="FeedUnit_"]:-abp-has(b:-abp-contains(Được tài trợ))
+facebook.com#?#[data-pagelet="RightRail"] .l9j0dhe7:-abp-has(b:-abp-contains(Được tài trợ))
+facebook.com,www.facebook.com##div[data-pagelet^="RightRail"]
+facebook.com,www.facebook.com#?#a[rel^="nofollow noopener"][target^="_blank"]
+facebook.com,www.facebook.com,fbcdn.net#?#a[rel^="nofollow noopener"][target^="_blank"]
+facebook.com##DIV[id^="substream_"] ._5jmm[data-dedupekey][data-cursor][data-xt][data-xt-vimpr="1"][data-ftr="1"][data-fte="1"]
+||facebook.com/ads/ad_preview_generator_iframe/
+||facebook.com/ajax/mercury/change_read_status.php
+||facebook.com/ajax/mercury/change_read_status.php^
+||facebook.com/ajax/mercury/delivery_receipts.php
+||facebook.com/ajax/mercury/delivery_receipts.php^
+||facebook.com/ajax/mercury/mark_seen.php^
+||facebook.com/ajax/messaging/typ.php^
+||facebook.com/ajax/messaging/typing.php^
+||facebook.com/ajax/notifications/mark_read.php^
+||facebook.com/audiencenetwork/$third-party
+||facebook.com/network_ads_common
+||facebook.com/video/instream_video/
+||messenger.com/ajax/messaging/typing.php^
+/messaging/typing.php^
+/messaging/typ.php^
+/messaging/delivery_receipts.php^
+/messaging/change_read_status.php^
+/messaging/mark_seen.php^
+/mercury/typ.php^
+/mercury/typing.php^
+/mercury/delivery_receipts.php^
+/mercury/change_read_status.php^
+/mercury/mark_seen.php^
+!!end-facebook
+!!twitter
+twitter.com##.RelatedUsers
+twitter.com##.WhoToFollow
+twitter.com##:is([aria-label="Timeline: Your Home Timeline"], [aria-label$="’s Tweets"]) article [d^="M23.615 15.477c"]:upward(article):style(border: yellow dotted 5px !important)
+twitter.com##[aria-label$="’s Tweets"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(>div:only-child:empty, article, [href^="/i/status/"])):style(border:red dotted 4px !important)
+twitter.com##[aria-label$="’s Tweets"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(>div:only-child:empty, article, [href^="/i/status/"], [role="progressbar"])):style(border:red dotted 4px !important)
+twitter.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(>div:only-child:empty, article, [href^="/i/status/"])):style(border:red dotted 4px !important)
+twitter.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(>div:only-child:empty, article, [href^="/i/status/"], [role="progressbar"])):style(border:red dotted 4px !important)
+twitter.com##article [aria-label^="Follow Topic"]:upward(article):style(border: white 5px dotted !important)
+twitter.com##article [d$="13.157H12z"]:upward(article):style(border:blue 5px dotted !important)
+twitter.com##article [d$="43-7.787-7.8-7.788z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replied$/)):style(border: violet 5px dotted !important)
+twitter.com##article [d$="43-7.787-7.8-7.788z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replied$/))+div:style(border: violet 5px dotted !important)
+twitter.com##article [d$="43-7.787-7.8-7.788z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replies$/)):style(border: green 5px dotted !important)
+twitter.com##article [d$="43-7.787-7.8-7.788z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/)):style(border: lightgreen 5px dotted !important)
+twitter.com##article [d$="43-7.787-7.8-7.788z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/))+div:style(border: lightgreen 5px dotted !important)
+twitter.com##article>div:first-child:not(:last-child):upward([style*="position: absolute"]):style(border: 5px dotted orange !important)
+twitter.com##div[aria-label^="Timeline:"]:not([aria-label$="Lists"]):not([aria-label$="List"]) div[style^="position: absolute;"]:not(:has(article)):has(a[href^="/i/lists/"])
+twitter.com##div[aria-label^="Timeline:"]:not([aria-label$="Topics"]):not([aria-label$="Explore"]) .r-qklmqi:has([aria-labelledby*="topic-not-interested-button"])
+twitter.com##div[aria-label^="Timeline:"]:not([aria-label$="Topics"]):not([aria-label$="Your Lists"]) .r-1adg3ll:has(div[aria-label="Timeline: Carousel"])
+twitter.com##div[aria-label="Timeline: Your Lists"] div[style^="position: absolute;"]:has(a[href="/i/lists/suggested"])
+twitter.com##div[data-testid=sidebarColumn] > div > div > div > div > div > div > div:nth-of-type(3)
+twitter.com#?#div:-abp-has(> div > a[href^="/i/connect_people"])
+twitter.com#?#div[data-testid=primaryColumn] div:-abp-has(> div > div > h2[role=heading] > div[dir=auto] > span)
+twitter.com,www.twitter.com##aside[aria-label^="Gợi ý theo dõi"]
+twitter.com,www.twitter.com##aside[aria-label^="Người liên quan"]
+twitter.com,www.twitter.com##div[aria-label^="Dòng thời gian: Đang nổi bật"]
+!!end-twitter
+!!/
+!!.
+.admicro.
+.aspx?poolid=
+.cfm?poolid=
+.com/1?z=$script,third-party
+.com/2?z=$script,third-party
+.com/a.js|$script,~third-party
+.com/add.php|$xmlhttprequest,third-party
+.com/ads$domain=~anime47.com
+.com/cpc/$script
+.com/custom|$xmlhttprequest,third-party
+.com/embed/*&subAffId=$script,third-party
+.com/event|$xmlhttprequest,third-party
+.com/fr.js|$~third-party
+.com/go/go.js|$script,~third-party
+.com/jsb/js_script.js|$~third-party
+.com/npt/banner/*&psprogram=$image,third-party
+.com/pup.php?section=$script,third-party
+.com/qc/
+.com/script/compatibility.js|$third-party
+.com/script/ippg.js|$third-party
+.com/slider.php?section=$script,third-party
+.com/v.js?v=3|$~third-party
+.com/vast/$xmlhttprequest
+.com/vtrack|
+.engine?id=
+.gif?Log=
+.net/ads.
+.net/Ads/
+.net/cpf/$script
+.net/custom|$xmlhttprequest,third-party
+.net/event|$xmlhttprequest,third-party
+.online/ads/
+.pro/sdk/push_web/?zid=
+.spacepools.*:
+.uniad.
+.vn/Ad/
+.vn/ads
+.vn/qc/
+!!end-.
+!!blank
+ad_300_250
+about:blank$popup,domain=streamtape.site
+!!end-blank
+!!&
+&ad_block=
+&ad_code=
+&ad_height=
+&ad_ids=
+&ad_network_
+&ad_slot=
+&ad_sub=
+&ad_time=
+&ad_type=
+&ad_url=
+&ad_zones=
+&adbannerid=
+&adclient=
+&adflag=
+&adformat=
+&adgroupid=
+&adlist=
+&adnum=
+&adpageurl=
+&adsafe=
+&adserv=
+&adserver=
+&adslot=
+&adslots=
+&adsrc=
+&adstrade=
+&adstype=
+&AdType=
+&aduid
+&adunit=
+&adurl=
+&cbrandom=
+&clicktag=http
+&displayads=
+!!end-&
+!!#?#
+#?#.ct-code-block:-abp-has(.adCreator)
+#?#.alert-danger:-abp-has(a[href])
+#?#div[style*="float"]:-abp-has(ins.adsbygoogle)
+#?#li:-abp-has(h3:-abp-contains(Sản phẩm))
+#?#.fyi--group:-abp-has(.is-ads)
+#$#.div-gpt-ad { width:1px!important;height:1px!important;min-height:1px!important; }
+#$#ins.adsbygoogle { width:1px!important;height:1px!important;min-height:1px!important; }
+#$#[class^="div-gpt-ad"] { width:1px!important;height:1px!important;min-height:1px!important }
+#?#.googad
+#?#a[aria-label*="Advertiser link"]
+#?#a[aria-label*="Advertiser"]
+#?#div[class^="ads"]
+#?#div[class^="ads-"]
+#?#div[class^="d-flex justify-content-center"]
+#?#div[data-advadstrackid]
+#?#div[id^="mediumwidgetembed"]
+#?#.ad_unit
+#?#.ad-unit
+!!end-#?#
+/(https?:\/\/)\w{30,}.me\/\w{30,}\./$script,third-party
+/(https?:\/\/)\w{30,}.me\/\w{30,}\./$script,third-party,domain=~m.blogtruyen.vn
+//affiliate.$third-party
+/?oo=1^$xmlhttprequest,third-party
+/[\w=]{36}\.js/$domain=monova.org|monova.to
+/\.(com|to)\/(\w{2}\/){3}\w{32}\.js/$script,third-party
+/\/js\/\d{3}eka\d{2,3}\.js$/$script,~third-party
+/\/nb\/(?=[a-z]{0,9}[A-Z])[a-zA-Z]{10}\.js/$script,~third-party,match-case
+/\/nb\/[a-z]{4}\.js$/$script,~third-party,match-case
+/\/v\d\/a\/[a-z]{2,3}\/js\/\d{5,6}/$script,third-party
+/\/wp-content\/uploads\/[a-z]{6,9}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
+/\/wp-content\/uploads\/[a-zA-Z]{12}\/[a-zA-Z]{12}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
+/\:\/\/[a-z0-9]{5,}\.com\/[A-Za-z0-9]{3,}(\/|.css|.js)$/$script,stylesheet,third-party,xmlhttprequest
+/\w{10}\.com\/\w{2}\/\w{2}\/\w{2}\/\w{32}\.js/$script
+/\w{16}\.com/$domain=userscloud.com
+/\w{32}\/invoke.js/$domain=~shortearn.eu
+/^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
+/^(.+[_.-])?telemetry[_.-]/
+/^adim(age|g)s?[0-9]*[_.-]/
+/^adtrack(er|ing)?[0-9]*[_.-]/
+/^advert(s|is(ing|ements?))?[0-9]*[_.-]/
+/^aff(iliat(es?|ion))?[_.-]/
+/^analytics?[_.-]/
+/^banners?[_.-]/
+/^beacons?[0-9]*[_.-]/
+/^count(ers?)?[0-9]*[_.-]/
+/^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,third-party
+/^https:\/\/[a-z]{10,16}\.xyz\/(?=[+/a-zA-Z]{0,140}\d)(?=[+/0-9a-z]{0,140}[A-Z])[+/0-9a-zA-Z]{140,}$/$image,ping,third-party,match-case
+/^https:\/\/[a-z]{10,16}\.xyz\/(?=[+/a-zA-Z]{0,400}\d)(?=[+/0-9a-z]{0,400}[A-Z])[+/0-9a-zA-Z]{400,}$/$subdocument,third-party,match-case
+/^https:\/\/[a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,76}[A-Z])(?=[-_a-zA-Z]{0,76}[0-9])[-_0-9a-zA-Z]{63,77}$/$script,third-party,match-case
+/^https:\/\/[a-z]{8,15}\.xyz(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}\.html$/$subdocument,third-party,match-case
+/^https:\/\/[a-z]{8,15}\.xyz(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}\/$/$popup,third-party,match-case
+/^https:\/\/[a-z]{8,15}\.xyz\/(?:ajax|articles|config|custom|data|menu|resources|validators)(?:\.json)?$/$xmlhttprequest,third-party
+/^https:\/\/[a-z]{8,15}\.xyz\/(?:bootstrap|bundle|index|jquery-ui|reset|styles?)\.css\?[/0-9a-zA-Z]{46,}=?=?$/$stylesheet,third-party,match-case
+/^https:\/\/[a-z]{8,15}\.xyz\/(?:brand|error|favicon|header|icon|image|logo|star|warning)\.png\?[0-9a-zA-Z]{46,}=?=?$/$image,third-party,match-case
+/^https:\/\/[a-z]{8,9}\.com\/gamma\/\d{3,4}$/$xmlhttprequest,third-party
+/^https:\/\/[a-z]{8}\.net\/1\/\d{7}\/\?var=/$popup,third-party
+/^https:\/\/[-a-z]{9,15}\.com\/400\/\d{7}$/$script,third-party
+/^https:\/\/[-a-z]{9,15}\.com\/500\/\d{7}\?/$xmlhttprequest,third-party
+/^https:\/\/a\.[a-z]{9,16}\.(?:com|xyz)\/(?=[a-z]{0,6}[0-9A-Z])(?=[0-9a-z]{0,6}[A-Z])[0-9a-zA-Z]{7}\.js$/$script,match-case
+/^https?:\/\/.*\.(jpg|png|php|html|svg|ico)/$popup,domain=5movies.fm|animepahe.com|hulkstreams.com|jackstreams.com|olympicstreams.me|redirect-ads.com|speedvideo.net|streamtape.cc|streamtape.net|strikeout.nu|telerium.net|vipleague.cc|watchserieshd.tv
+/^https?:\/\/[_a-z0-9-.]{6,16}\.[a-z]+\/(4(00)?|5)\/[0-9]{7}/$third-party,important,popup
+/^https?:\/\/[_a-z0-9-.]{6,16}\.[a-z]+\/[a-w]{2,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,popup,important
+/^https?:\/\/[a-z]{6,10}\.com\/4\/\d{7}\/?$/$document,popup
+/^https?:\/\/[a-z]{6,15}\.(?:com|xyz)\/1\/\d{7}\/\?var=\d{7}&/$document,popup
+/^https?:\/\/[a-z]{8,11}\.(?:com|net)\/tag\.min\.js$/$script,third-party
+/^https?:\/\/[a-z]{8,13}\.com\/5\/\d{7}$/$script,third-party
+/^https?:\/\/po[wvu][wv][li1]deo\.(net|c(om|c))\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org *.google.com *.gstatic.com *.googleapis.com;
+/^https?:\/\/str((eam)?ta(pe)?(adblock)?|cloud)\.[\w]+\//$important,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
+/^https?:\/\/str?ea[nm]p[l1]ay\.[a-z]{2,3}\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
+/^https?:\/\/www\.[0-9a-z]{5,11}\.(?:com|name)\/ok\/ok\.js$/$script,~third-party,match-case
+/^mads\./
+/^pixels?[-.]/
+/1clkn/*$script
+/2734478852/a.js
+/57.js
+/a/ban/iframe/*
+/a/display.php
+/a/isv/js/*
+/a/na/js/*?container=$script,third-party
+/a/prl/vst/*
+/a/vsl/vst/*
+/a06b4.js
+/aas/r45d/vki/*$script,third-party
+/ab/thejsfile.js
+/abb-msg.js
+/abDetector.js
+/abp_detection/
+/abtest_ab.js
+/ad/api/popunder.js|$script,~third-party
+/ad_break
+/adb.min.js
+/adb_detector.
+/adb_script/*
+/adbclk2.
+/adbDetect.
+/adbDetect/*
+/adbl_dtct.
+/adbl_dtct1.
+/adblock.gif?
+/adblock_alerter.
+/adblock_alerter/*
+/adblock_detect.
+/adblock_detector.
+/adblock_erreur.
+/adblock_gate/images/animated.gif?
+/adblock_logger.
+/adblock_notify.js
+/adblock-alerter/
+/adblock-alerter/js/adblock_alerter.js
+/adblock-blocker/
+/adblockdetect.
+/adblock-detect.
+/adblock-detect/*
+/adblockdetect/*$~image
+/adblockdetection.
+/adblock-detector.
+/adBlockDetector/
+/adblockdetectorwithga.
+/adblocker/modal.
+/adblocker_message_
+/adblocker-detected.
+/adblocker-feature?
+/adblocker-leader.
+/adBlockerTrack_
+/adblock-img.
+/ad-blocking-advisor/
+/ad-blocking-advisor/*
+/ad-blocking-alert/
+/adblockkiller.
+/AdblockMessage.
+/adblock-message.
+/adblock-modal-
+/adblock-modal.
+/adblock-notice-
+/adblock-notify-by-bweb/
+/adblock-notify-by-bweb/*
+/adblockpopup.
+/adblock-relief.js
+/adblock-relief/
+/adblock-warning-teaser/*
+/adbuddy
+/ad-exchange.
+/adk2.
+/admicro1.vcmedia.vn/
+/admServer/*
+/adnetwork
+/ados.js
+/adoverlay/*
+/ads
+/ads.js
+/ads/*$image
+/ads/about/
+/ads?
+/ads_clip/*
+/adsbanner/
+/adsbanner/*
+/adsblocker.
+/ads-blocking-detector.
+/adscript/*
+/adsense/*
+/adServe/*
+/adserver.
+/adserver/*
+/adsfloat/*
+/ads-iframe-display.php
+/adtima-static.zascdn.me/
+/adv/*
+/adv/ads/popunder.js?$script,~third-party
+/adv_out.
+/adver.
+/aff_ad
+/afu.php
+/aj1559.online
+/ajax/libs/popper.js/
+/ajs.php
+/amcdn.vn/
+/amp-auto-ads-
+/anti_ab.
+/anti_ad_blocker/
+/anti-adblock/*$~stylesheet
+/antiadblockmsg.
+/anti-block/
+/antiblock_script/
+/aot-content/modules/wp^
+/api/pop.php$xmlhttprequest,~third-party
+/api/spots/*&ev$script
+/api/spots/*&fill=$xmlhttprequest
+/api/spots/*?s1=$script,third-party
+/api/v1/collector
+/api/v1/streamtelemetry
+/api/v2/collector
+/api/v2/jsonlogger
+/appsha1.cointraffic.io
+/apu.php?zoneid=
+/asset/angular.min.js?t=$xmlhttprequest,~third-party
+/asset/jquery/slim-3.2.min.js?*&t=$xmlhttprequest,~third-party
+/asset/vue.min.js?ts=1&_=$xmlhttprequest,~third-party
+/assets/beacons.js
+/assets/themes/js/ads$script,domain=phim18zz.com
+/assets/themes/js/wonderfarm$script,domain=huphimzz.com|phim18z.net
+/assets/themes/js/wonderfarm$script,domain=huphimzz.com|phim18zz.com
+/ats.js
+/authedmine.$script,domain=~authedmine.com
+/authedminer.js
+/b_track_2.
+/banner.php
+/banner/
+/banner/*.gif
+/banner-preload.js
+/banners/
+/bannery/$image
+/bens/vinos.js
+/bens/vinos3.js
+/bens/vinos4.js
+/bens/vinos5.js
+/bens/vinos6.js
+/bidvertiser/tags/*$script
+/bitcoincore/?ref=
+/bitcoin-plus-miner/*
+/bloackdas.js
+/blockadblock.$script,xmlhttprequest
+/blockAndInf.js
+/blockblock.jquery.
+/blockblock/blockblock.jquery.js
+/blueserving.
+/bookmarks.js
+/bootstrap.wasm$third-party
+/bootstrap.wasm$xmlhttprequest
+/bowerywill.com/
+/browsermine.js
+/bultykh/ipp24/7/bazinga/*$script,third-party
+/c.wasm
+/c1.popads.net/
+/cdn.bongdadem.net/*.gif$image
+/cdn.polyfill.io
+/ceef/gdt3g0/tbt/*$xmlhttprequest,third-party
+/c-hive.js
+/cloudcoins.js
+/cloudcoins.min.js
+/cn.wasm$third-party
+/code/native.js?h=
+/code/pops.js?h=
+/code/silent.js?h=
+/coinblind.js
+/coinblind_beta.
+/coinGofile.
+/coinhive.min.js
+/coinhive-proxy-
+/coin-hive-proxy-
+/coinlab.js
+/coinzillatag.com
+/compact_miner?
+/content/vast$xmlhttprequest
+/crn.wasm
+/crypta.js
+/cryptocpu.js
+/cryptonight.wasm
+/cryptonight-worker.
+/cryptonoter.
+/crypto-webminer.$domain=~crypto-webminer.com
+/deadblocker/*
+/deepMiner.js
+/deepMiner.min.js
+/delivery/channels/*
+/dh-anti-adblocker/assets/js/ads-prebid.js?
+/disable-adblock.
+/disabled_adBlock.
+/display/items.php
+/display/items.php?$script,third-party
+/dprocessor.js
+/dt.adsafeprotected.com/
+/eab/eab_fl.js
+/exoads/b/
+/exzUndSJBH.jsx|$script,~third-party
+/fac.php$subdocument,third-party
+/facebook-pagelike-widget/*
+/fbLikePopup*.js
+/fembed\.com(\/\w{2}){3}\/\w{32}\.js/$script,domain=fembed.com
+/files/js/ab.v11.js|$script,~third-party
+/flowplayer.ads.
+/fret/meow4/*$script
+/fuckadb.js
+/fuckadblock.min.js
+/fuckingadblockplus.
+/full-page-script.$script
+/geoip?
+/get_site_data?account_id=$xmlhttprequest
+/get-tracking-data
+/glx_*.js$script
+/goclick?t=every_$script,third-party
+/google_cse_v2.js
+/googlead.
+/google-adblock.
+/googleads.
+/gpt.$script,domain=~linksht.com
+/gpt.min.js
+/grumi-ip.js
+/gtag.min.js
+/gtm.min.js
+/gtrack.
+/hads-$domain=~phephimz.net
+/hash.wasm
+/helper.wasm$third-party
+/https?:\/\/\w{10,}\.com\/\w{10,}\/\d{5}/$script,third-party
+/i/npage/*/code.js|$script,third-party
+/ibd-block-adblocker/
+/image.bongngocdn.com/*.gif
+/images.accesstrade.vn/$image
+/images/ad/
+/images/ad/*
+/images/banner-
+/images/banner-*
+/images/banner/
+/images/banners/
+/images/costplay-banner-text.png
+/images/qc/*
+/img/promo/site-test.gif
+/inc/antiblock.
+/inject.js?key=$script
+/jgcabd-detect-
+/jgc-adblocker-
+/js/ad_pop.js|$other,script,~third-party
+/js/ads.min.js
+/js/adv/fuckadblock.js?$script,~third-party
+/js/anti-spam.js
+/js/ppndr.
+/js/soc_set.js
+/js/targeting.js
+/js/tracking?
+/js_EjyQo4ChEUijUm6s4HS8MTEc08qbM7YRAroiCnPxTlE.js
+/js_Hs9xvnwXoow-K_YEgInXO5Sf98gGNfNCMgMmcIIufck.js
+/js_kMg7W1sZANW-JVt-y1p4g6o0k68QXbUoYrBuKkRfQvo.js
+/js_MaOGbYPuY-SDvURt2LFa652UaQdkXL54VN8S5HQmE3k.js
+/js_xRsoINfioKDigDCtejKyBs4ICULNXOxMuw0ZFdiT0f0.js
+/jsa.hh?ext=$script,~third-party
+/jsa.hh?z=$script,~third-party
+/jsecoin.*/?
+/js-tag-manager/*
+/just-detect-adblock/
+/lg.nanda.vn/
+/lg1.logging.admicro.vn/
+/lhnhelpouttab-current.min.js
+/lib/crlt.js$script,third-party
+/libs/advertisement.js?ad_ids=*&show_ad=$script,~third-party
+/links/popad$popup
+/log.adtimaserver.vn/
+/logpopup/*$xmlhttprequest
+/lv/esnk/*$script,third-party
+/lvesnk.html?zoneid=
+/mactorrent.co\/\w{12}\.js/
+/mbp/pre/*$script,third-party
+/media/miner.
+/mine/bitcoincore/*
+/miner.*/crypto-
+/miner.*/loader.
+/miner.full.js
+/miner.js
+/miner.min.js
+/miner?key=
+/miner_proxy
+/minera.js
+/minero-proxy-
+/miner-ui.js
+/minescripts.js
+/mixpanel-*.js
+/mod_ablockdetector/*
+/modal-dist/index.js$script,~third-party
+/multi?cs=$xmlhttprequest,third-party
+/mxmlvideoad/*
+/myvids/rek/*$script,subdocument,~third-party
+/myvids/show.php$subdocument,~third-party
+/nano.wasm
+/nativeads.js
+/nb/f_ls.js
+/nb/fe_ld.js
+/nb/frot_lod.js
+/nb/nb_script.js
+/no-adblock/
+/noblock.js
+/nonAdBlock/*
+/ntv.json?key=$xmlhttprequest,third-party
+/obfus.min.js
+/pagead/*
+/pagead2.
+/pagead2.googlesyncdication.com/
+/player/html.php?aid=pause_html&video_id=*&referer=$subdocument,~third-party
+/player/html.php?aid=start_html&video_id=*&referer=$subdocument,~third-party
+/player/player_ads.html?advertising_id=$subdocument,~third-party
+/player/plugins/vast-*.js$script
+/plugins/pixelyoursite/*
+/plugins/poppy/poppy.js$third-party
+/plugins/wp-monero-miner
+/pn07uscr/f/tr/zavbn/*$script,third-party
+/pn21ywqw/z/sc/scssx/*$script,third-party
+/poolstatus?
+/pop.$script
+/pop.ads.php
+/pop.js
+/pop1.js|$script,~third-party
+/popad.php
+/popclck.
+/popunder.
+/popunder1.
+/popunder1000.js
+/popup.js
+/popup/adblocker
+/popup3.
+/prebid-ads.js$script
+/prebidlink/*
+/preroll.engine?id=$xmlhttprequest,third-party,redirect=nooptext
+/presale.js
+/preurl.php$popup
+/projectpoi.min.js
+/pub/js_min.js|
+/pubads.
+/public_resources/images/Popup*
+/q/tdl/95/dnt/*$script,third-party
+/qc/,$domain=~gooogle.com
+/qcao/*$domain=~thegioididong.com
+/quang%20cao/*
+/quang_cao/*
+/quangcao.
+/quangcao/*
+/?pu=$script,important
+/adbdetect.packed.js$script,third-party
+/ad-m.js|$important
+/antiboomclick.js$script,third-party
+/Ashwathnrayana/SpiderBlogging/*/antiadblock/$script,third-party
+/dewablock.js$script,third-party
+/fahimraza/FK/*/ad-unblocker.js$script,third-party
+/get/*?zoneid=$script,important
+/glx_*.js$script,important
+/jquery.notify.js|$script,important
+/js/ssu.$important,script,~third-party
+/lazeyuz.js$script,third-party
+/lazyads.js$script,third-party
+/links/popad|$popup,important
+/Raqmedia/adblock/$script,third-party
+/safu/safu.js$important,script
+/script/suv4.js$important,script
+/smpop.$script,important
+/static/js/amvn.js|$important
+/tghr.js$script,important
+/ren.gif?sid=$image,third-party
+/rtb/r$xmlhttprequest
+/s/s/custom.php?dw=
+/s/s/js/m/im.js?v=
+/s/s/sup.php
+/safelinkconverter.js
+/safu/safu.js
+/sbbanner.com
+/script/ad.
+/script/atg.js
+/script/native_render.js
+/script/native_server.js
+/script/preurl.php?r=
+/script/su.js$3p
+/securepubads.
+/serve.popads.net/
+/serve/show.php?a=$subdocument,third-party
+/serving/adServer.
+/servlet/view/*
+/shared/bannerpages/darttagsbanner.aspx?h=$script,third-party
+/simgad/*
+/static.cdnno.com
+/static/ads/*
+/static/image/ad_top_bg2.png?&ad_box_=$image,~third-party
+/storage.adpia.vn/$image
+/streambeam-jw.js
+/streambeam-video.js
+/SvgAdblockDetected/*
+/sweetie/hello.min.js?id=$script,third-party
+/tag?zone_id=$script,third-party
+/testAB.bundle.
+/tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/wp-[\w-]+\.js/
+/tmp/?s=1|$script,~third-party
+/track/?data=
+/track/count/*
+/track/statistic/*
+/track/view|
+/track?event=
+/trackimage/*$image
+/tracking/events?
+/tracking-analytics-
+/trackingcodefornonefcom.
+/trackingDTM.js
+/track-internal-links.
+/trackjs.$domain=~trackjs.com
+/trackPageView/*
+/trail.gif?s=
+/transparent.gif?ray=
+/trigger-visit-event
+/twdc-dtci/prod/servercomponent.php?
+/uploads/wangcao/*
+/userfiles/image/banner/
+/uts.js
+/utx?cb=$xmlhttprequest,third-party
+/v2/a/push/js/*$script,third-party
+/vast.$domain=~nhaccuatui.com|~supjav.com|~xemvtvnet.net|~hplus.com.vn
+/vast\d+\./$xmlhttprequest
+/vast-im.js$script
+/vegas79\./$popup,domain=lxhentai.com
+/vicdn.phimmoiiz.org/$domain=phimmoii.org,image
+/videojs.ads.$domain=~danet.vn
+/videojs.ima.js
+/vn/Ad/
+/vn/ads/
+/vn/qc/
+/wcm/?sh=$script,third-party
+/wdbloogablock.js
+/web.api.adtimaserver.vn/
+/web_miner/*
+/webcoin.js
+/webcoin.min.js
+/webmr.js
+/webxmr.js
+/wmedia/tags/*
+/wp-banners.js^$script
+/wp-content/plugins/ad-block-defender/*
+/wp-content/plugins/deadblocker/*
+/wp-content/plugins/quick-adsense-reloaded/assets/js/ads.js
+/wp-content/plugins/simple-adblock-notice-pro/*
+/wp-content/plugins/wp-banners/js/wp-banners.js$important
+/wp-content/uploads/*.gif$image,domain=tuoi69z.com|sieukhungz.net|tuoinung.com
+/wp-content/uploads/an-temp/*$script,stylesheet
+/wp-jrzi-poafty.js
+/wproxy$~third-party,websocket
+/wp-rqdpib-axjfs.js
+/wutime_adblock/*
+/www.eporner.com/\w{32,}/$image,script,~third-party
+/www.googletagservices.com/
+/www/delivery/*
+/www/images/*
+/xad/js.php
+/xads.js
+/xbanner.js
+/xminer.js
+/xminer.min.js
+/xmr.js
+/xmr.min.js
+/xmr-monero.js
+/xpopup.js
+/xupload.js
+/YanAds/*
+/za.js
+/zlk/zlk.js
+/zone.uniad.vn/$image
+!!end-/
+!!?
+?*.spacepools.
+?a=1&e=*&if=0|$xmlhttprequest,third-party
+?action=track_visitor&
+?adl=1&id=$script,~third-party
+?local_ga_js=
+?logType=impression&
+?logType=trackEvent&
+?proxy=*?pool=
+?proxy=*?pools=
+?proxy=ws://$script,websocket
+?proxy=wss://$script,websocket
+?wl=0&event_id=$xmlhttprequest,third-party
+!!-
+-crypto-miner/*
+-monero-miner-
+-monero-miner.$domain=~wp-monero-miner.com
+-monero-miner/*
+-adblocker-detection/
+-adblocker-detector/
+-adblock-notice-
+-adblock-notice/*
+-adobe-analytics/
+-appanalytics-
+-dtaectolog-
+-universal-analytics/
+!!=
+=eyJ.js^$script
+=ws://*?pool=
+=ws://*?pools=
+=wss://*?pool=
+=wss://*?pools=
+!!_
+_adblocker_detected
+_adblock_killer.
+_atblockdetector/
+!!:
+://ad.$third-party,domain=~megaurl.in
+://ads.$third-party,domain=~megaurl.in
+://a.*/static?r=$script,third-party
+://a.*/warp/$script,third-party
+! !##^
+##^script:has-text(sponsoredwellcontainertop)
+##^script:has-text(AD_DOMAIN_URL_SYS)
+##^script:has-text(advertserve.com)
+~facebook.com##^script:has-text(doubleclick.net)
+~google.com##^script:has-text(abcdefghijklmnopqrstuvwxyz)
+##^script:has-text(MTcityAds)
+!!###
+###share-social-base
+###ptgncdn_holder
+###fb-root
+###[id^="admzone"]
+###_sim_popup
+###>.left > .ad-rle
+###aabl-container
+###abdanner
+###abd-banner
+###abde
+###abDetected
+###ab--notification-ribbon
+###abnotify
+###abp-killer
+###ad_big_left
+###ad_blocker
+###ad_comment_dummy
+###ad_lightbox
+###ad_title
+###adb-actived
+###adbcontainer-popup
+###adbd
+###adb-enabled
+###adb-enabled3
+###adblock__container
+###adblock_detected
+###adblock_message
+###adblock_msg
+###adblock_popup
+###adblock_screen
+###adblock_tooltip
+###adBlockAlert
+###adblock-alert
+###adBlockAlertWrap
+###adBlockBanner
+###adblock-box
+###adBlockDetect
+###AdBlockDialog
+###adblocker
+###adblocker_announce
+###adblocker_message
+###adblocker_modal_overlay
+###adBlockerAlert
+###adBlockerModal
+###adblock-honeypot
+###adblock-in-browser
+###adblockinfo
+###adBlockMessaging
+###adblock-modal
+###adblock-msg
+###adblock-notice
+###adblock-overlay
+###adblockpopup
+###adblocktest
+###adblock-warning
+###adblockWarningPopup
+###adblockWrap
+###adblock-wrapper
+###adblockz_alert
+###adb-pop
+###adbpopup
+###adbuddy-no-adb-container
+###adbuddy-overlay
+###adbWarnContainer
+###adb-warning
+###ad-case
+###ad-masthead
+###ad-message
+###adPopUpContainer
+###ads_content
+###ads_warning
+###ads-blocked
+###adsblocker_detected
+###adstop2
+###adTeaser
+###adtoniq-msgr-bar
+###adunit
+###advertisementjsalert
+###advideo_adv
+###advMasthead
+###advSharetopmenu2
+###advTop
+###advTopLine
+###ai-adb-message
+###ai-adb-overlay
+###ai-chat-box-button
+###anti_adblock
+###antiAdBlock
+###antiBlock
+###antsomi-pdp-flash-sale
+###arlinablock
+###article__banner--desktop
+###babasbmsgx
+###balloonads
+###balloonads2
+###banner_FloatLeft
+###banner_FloatRight
+###banner_full
+###banner_position
+###banner_side
+###banner-a1
+###bannerCT-2
+###bannerIn
+###banner-middle-area
+###bannerSliderSidebar
+###bannerSmall
+###banner-top
+###bannerXX
+###bar_float
+###bb-that
+###beta-ad-container
+###bg-banner
+###bm_Is
+###bn_bottom_fixed_left
+###bn_bottom_fixed_right
+###bnr0
+###bnr1
+###box-adblocker-wrap
+###categories > .banner_800
+###categories > .cat_banner
+###check_ad_block
+###check-also-box
+###chuong-footer
+###comment-video
+###content > .advert
+###content > .full_news > .content_wrapper > .fl_r > .typical_ad
+###cookie_warning_container
+###detectadblock
+###detection-block
+###detection-block-overlay
+###disqus_thread
+###div[id*="gpt-ad"]
+###div[id^="nativeAds"]
+###div_page_right > aside > .table_center > div > .adnobg.center
+###divComment
+###dom_adblock
+###earAds
+###eazy_ad_unblocker_dialog-message
+###eazy_ad_unblocker_dialog-overlay
+###exoIMFrame
+###expandableBanner
+###fab
+###fakeplayer
+###fast-feedback-btn
+###fb-boxview
+###fblikebg
+###fblikepop
+###fnAdblockingOverlay
+###fondAdblock
+###footer
+###footer-container
+###fuck-adb-enabled
+###fukie1
+###galepro-core-adb-enabled
+###google-center-div
+###gtranslate_wrapper
+###headerad-pro
+###ifComment
+###ignielAdBlock
+###img-banner-bottom
+###jBox-overlay
+###js-comment
+###js-popup-blocker
+###liked-list
+###like-note
+###lrb:has(.bannergroup)
+###m-adsence-popup
+###main_columns > .between_posts_ad
+###mdp-deblocker-js-disabled
+###medium0-donate
+###message_adblock
+###midAds468x60
+###mobile_content_bottom
+###mobileCatfish
+###modalAblockWrapper
+###modal-adblocker
+###nafikblock
+###notify-adblock
+###ok-popup
+###overlay-backadBlock
+###page > .content > .inner > .row-grid > .popup-social
+###pageAdHeader
+###parent_popup
+###player-ads
+###plhMain_NewsDetail1_divSharelink
+###plug-overlay
+###plus-upsell-adblock
+###popapIsBlockedAd
+###popup_bg
+###popup-newsletter-article
+###popup-under
+###product-comments
+###PromoteSignUpPopUp
+###pushed_popup
+###qcBallonright
+###quangcaomb
+###quangcaopc
+###quickModForm > table > tbody > tr:if(span:has-text(/Advertised sites are not endorsed by the Bitcoin Forum./))
+###read-comments
+###revive-0-0
+###right_side_fixed_ad
+###script-show-info-ad
+###seo_container_for_fb_box_news
+###show_qc
+###showFTCMessage-back
+###sidearm-adblock-modal
+###siropuChatBar
+###site-header__ads
+###softtopad
+###spons-bound
+###sponsor_banner_link
+###sponsor-ad
+###summita-wrap
+###thaoluan
+###tie-popup-adblock
+###topArtistsBlock
+###tpads_top_banner_container
+###unblocker
+###video-banner
+###watch7-sidebar-ads
+###WIX_ADS
+###wpfomo
+###wrap > .bigbanner
+###wrapperBlocker
+!!end-###
+!!##.
+##.header__cookie
+##.trade-carousel.trade-carousel-vertical
+##.fix_tel
+##.social_pin
+##.arcontactus-widget
+##.center:has-text(Advertisement)
+##.ptgncdn_holder
+##.video-inline-ads
+##section[class^="section__advertise"]
+##.adsHEADER
+##.footer-item-social-media
+##.block.bar-rate
+##.composition.teaser-composition
+##div[data-id-advertdfpconf]
+##.detail-share-top
+##.tagandtopicandbanner
+##.ab-adv_banner
+##.ad_header
+##.ad_location
+##.ad-728
+##.ad-card
+##.ad-embed
+##.ad-left
+##.ad-right
+##.ads_area_01
+##.ads_area_03
+##.ads_area_04
+##.ads_player
+##.ads_sticky_bottom
+##.ads-block-warning
+##.adsbyadop
+##.ads-fix-bottom
+##.adsitem
+##.ads-menu
+##.fb-like.fb_iframe_widget
+##.ppocta-ft-fix
+##.zalo-follow-only-button.pull-right
+##.adsmessage
+##.ads-middle
+##.adsphim-popup-center
+##.ads-taboola
+##.adv1x
+##.adv2x
+##.adv3x
+##.adv-box
+##.advertisement-text
+##.adv-top
+##.adWidget
+##.afw-topbanner
+##.avert
+##.avert-text
+##.b_top__banner
+##.banner_728
+##.banner_top_masthead
+##.banner-preload-link
+##.boun-media
+##.boun-media1
+##.box-likenews
+##.button-dangkyngay
+##.button-popup-loyalty
+##.c-ads
+##.closed_ads_span
+##.dlp_newsletter_subscribe
+##.elementor-popup-modal
+##.ezoic-ad
+##.fb-share-button
+##.ff-banner
+##.float-ck
+##.float-contact
+##.footer-logo-mess
+##.footer-promo-place
+##.ga-comment
+##.google-ad-square-sidebar
+##.header-promo-place
+##.hocwp-ads
+##.hrv-loyalty-popup
+##.html_banner_wrap
+##.img_ad
+##.in-article-promo
+##.in-post-sticky.only-desktop
+##.iosAdsiosAds-layout
+##.item.js-tooltip
+##.itv-index-card-promo
+##.jw-cue
+##.leftAdsBanner
+##.link_video_youtube.tt-fluid-inner-iframe.vidAdjust.smallVid
+##.logged_out_ad
+##.midroll-marker
+##.m-popup
+##.newsletter-signup-header
+##.nh-icon.icon-alert
+##.panel-default.panel:if(.panel-heading:has-text(/Advertisement/))
+##.pb-ad-prod
+##.pc-banner
+##.phpbb-ads-center
+##.player-midpoint-progress
+##.popup-layer
+##.popup-link
+##.preloader-wrapper
+##.preroll-blocker
+##.quangcao
+##.quangcao-top
+##.question_page_ad
+##.row.sss_slot.sej-bbb-section
+##.row.web-dwn
+##.s2nFloatBox
+##.safeuploada-filter
+##.SC_TBlock
+##.sej-hello-bar
+##.sej-register-popup.sej-popup 
+##.sej-subscribe-form
+##.share.share--column.share--noCount
+##.sharebox
+##.sharemxh.bottomshare
+##.share-wrapper
+##.sh-vert.sharebtn.android
+##.side-promo-place-right
+##.src\=.async.content-dynamic-ga-ad-responsive\>\
+##.td_block_wrap.td_block_text_with_title.td_block_widget
+##.td_quote_box.td_box_center
+##.td-footer-wrapper
+##.td-more-articles-box.td-front-end-display-block
+##.theme-main > .live > .player-wrapper > .branding_promo_place
+##.thirstylinkimg
+##.top_ads
+##.tpm-ads-unit
+##.user-info.author.clearfix
+##.v-dialog.v-dialog--active.v-dialog--persistent
+##.video-ads
+##.widget.widget_block.widget_media_image
+##.WidgetFramework_WidgetRenderer_Html
+##.wpd-left-corner
+##.ytp-ad-progress
+##.ytp-ad-progress-list
+##.zalo-share-button
+!!end-##.
+!!##
+##[onclick*="window.open('http://deloplen.com/"]
+##[class$="BannerWrap"]
+##[class*="adBanner"]
+##[class*="advertis"]
+##[class*="advertising"]
+##[class*="banner-news"]
+##[class*="js-banner-tgb-article"]
+##[class*="pushcrew"][class*="notification"]
+##[class][data-sitename][data-header-version] > div[id^="detection-block"]
+##[class^="ad_label"]
+##[class^="ad-incontent"]
+##[class^="Ads_"]
+##[class^="b-adsense"]
+##[class^="banner-place"]
+##[class^="bborder"][class*="upad"]
+##[id*="exo_"]
+##[id*="outfitAd"]
+##[id^="adfox_"]
+##[id^="bl_google_ads"]
+##[id^="div-gpt-ad-"]
+##[id^="med_rec_banner"
+##[id^="oms_"]:has( > .adsbygoogle)
+##[id^="qc_"]
+##[id^="tx_banner"]
+##[id^="yandex_ad"]
+##[id="WIX_ADS"]
+##[src^="/img/adv/"]
+##a#mobile_pop.js-mob-popup
+##a.nh-read__pagination--report
+##a[href*=".exoclick.com/"]
+##a[href*="/afu.php"]
+##a[href*="/cgi-bin/clicks.cgi?"]
+##a[href^="//"][rel="nofollow norefferer noopener"]
+##a[href^="//"][rel="nofollow norefferer noopener"][style*="position: fixed;"][style*="width: 100%;"][style*="height: 100%;"]
+##a[href^="//"][rel="nofollow norefferer noopener"][style*="position: fixed;"][style*="width: 9"][style*="height: 9"][style*="z-index:"]
+##a[href^="/adv/go?viewbanner="]
+##a[href^="/i/connect_people?user_id"][role^="link"]
+##a[href^="/links/share"]
+##a[href^="/rpan/"] > h3:has-text(Top livestream)
+##a[href^="http://wmedia.adk2x.com/"]
+##a[href^="https://ad.doubleclick.net/"]
+##a[href^="https://medictiona.info/"]
+##a[href^="https://megaurl.in/ref/"]
+##a[href="javascript:window.location.reload()"]
+##a[id][href*="/PVZ/PVZ.php?c="][rel=nofollow][target=_blank]
+##a[rel$="sponsored"]
+##a[rel^="nofollow"][href*="kinhtedothi"]
+##a[rel^="sponsored noopener"]
+##adblock-detect
+##adblocker
+##adblock-modal-component
+##ads300
+##center > .sponsored
+##center:has(span:has-text(Adversitements))
+##div.met-footer-toast
+##div:has( > #adfox-240x400)
+##div:has( > div[data-reactroot] > div[id ^= "adfox"])
+##div:matches-css(padding-top:30px):has([id^="adfox_"])
+##div[class$="alo-phone"]
+##div[class*="firebase-mesaging"]
+##div[class*="id-custom_ad"]
+##div[class]:has( > div[data-section="forecast_top_box_ads_desktop"])
+##div[class^="comments"][id^="comments"]
+##div[class^="loading_ani"]
+##div[data-nosnippet^="data-nosnippet"]
+##div[id*="gpt-ad"]
+##div[id^="ads-chapter-"]
+##div[id^="block"]:has( a > div > div > img[src*="advruclick"])
+##div[id^="div-gpt-ad"]
+##div[id^="exo_slider_"]
+##div[id^="image_popup_"]
+##div[id^="lang_footer"]
+##div[id^="sponsor-"]
+##div[role*="article"]:has([aria-label*="sponsored"]):not(:has-text(favorite):not(:has-text(/[0-9]{1,2} hour/)):not(:has-text(/day/)):not(:has-text(minute)):not(:has-text(just)):not(:has-text(/[0-9]{4,4}year/)):not(:has-text(/[0-9]{1,2}month[0-9]{1,2}day/))
+##div[role^="button"][tabindex^="0"][data-testid^="UserCell"]
+##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
+##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
+##div[style^="z-index: 2147483647 !important; position: fixed !important; width: 420px !important; height: 194px !important; cursor: pointer !important;"]:not([class])
+##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]:not([class])
+##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
+##div[style="position: fixed; display: block; width: 100%; height: 15%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
+##fieldset[class^="advert"]
+##h2[role^="heading"]
+##h3:has-text(/Top livestream/)
+##iframe[class][scrolling=no][sandbox="allow-same-origin allow-scripts allow-popups"][style*="transform: translateX(-50%); z-index: 2147483647; position: fixed"]:not([src])
+##iframe[id^="google_ads_frame"]
+##iframe[id^="google_ads_iframe"]
+##iframe[src*="//deliver.ptgncdn.com"]
+##iframe[style$="box-sizing: border-box; position: fixed; inset: auto 0px 0px auto !important; overflow: hidden; z-index: 2147483647;"]:not([src])
+##iframe[style*="opacity: 1 !important; max-width: 420px !important"][style*="position: fixed !important; display: block !important; z-index: 2147483647 !important"]:not([src])
+##iframe[style*="z-index: 2147483647; min-width: 240px !important; display: block !important; max-width:"]:not([src])
+##iframe[style="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: medium none; outline: currentcolor none medium; box-sizing: border-box; position: fixed; inset: 0px; overflow: hidden; z-index: 2147483647;"]:not([src])
+##iframe[title^="Special Offer"]
+##img[alt="330x300 banner"]
+##ins.adsbygoogle
+##li[class="mb-2"]
+##o_h.f_l
+##relapads
+##thing.showContent
+##span[class^="td-adspot"]
+##td > table:has(noindex > center > .adsbygoogle)
+##td:has(> script:has-text(google_ad))
+##td[align="center"]:has(a[href="/adv/"])
+##ul:has(span:has-text(Adversitements))
+##ul[class^="box_social_post"]
+##ul[class^="essb_links_list"]
+##ul[class^="share_social"]
+!!end-##
+!!page
+#@#.scroll-up-button
+@@||notification.passwords.avira.com^$important
+||blogtienao.com^*banner$image
+||tapchibitcoin.io^*banner$image
+||vk.com/images/upload.gif$domain=~vk.com|~vkontakte.ru
+||vk.com/js/api/share.js$third-party
+||vk.com/share.php$third-party
+||vk.com/widget_$third-party
+||vkontakte.ru/app1982352$third-party
+||vkontakte.ru/js/api/share.js$third-party
+||vkontakte.ru/share.php$third-party
+||vkontakte.ru/widget_like.php$third-party
+zingnews.vn###site-header
+~mega.nz##+js(abort-current-inline-script.js, $, adblock)
+~tiktok.com#?#iframe[class title^="chat widget"]
+~xamvn.io,~voz.vn,~vn-z.vn,~xda-developers.com,~mmo4me.com,~adguard.com##footer
+~zalo.me##div[class^="anim"]
+1tv.ru#@#.promo-place
+4pda.ru#@#*:if(:scope > a[rel="nofollow"][href][target="_blank"] ~ * > img[src])
+asiaon.top/*/wp-*.js
+bachngocsach.com###skip-link
+bachngocsach.com###thongbao
+bachngocsach.com##.page-foot
+baobua.com$$script
+baomoi.com##.bm_Is
+baomoi.com$$popup
+baotintuc.vn##.toolbar
+blockchaincuties.com##.blogSlide.container-fluid
+blockchaincuties.com##.checkBlogSlide.container-fluid
+blockchaincuties.com##.comboSlide.container-fluid
+blockchaincuties.com##.communitySlide.container-fluid
+blockchaincuties.com##.drivenSlide.container-fluid
+blockchaincuties.com##.floating-icon--halloween
+blockchaincuties.com##.floating-icon--lands
+blockchaincuties.com##.floating-icon--season-lootbox
+blockchaincuties.com##.floating-telegram
+blockchaincuties.com##.footer_blue
+blockchaincuties.com##.footerSlide.container-fluid
+blockchaincuties.com##.friendsSlide.container-fluid
+blockchaincuties.com##.header-menu-id-bcug
+blockchaincuties.com##.header-menu-id-sale
+blockchaincuties.com##.intro-action-btn-list
+blockchaincuties.com##.intro-navigation-btn-list
+blockchaincuties.com##.multiSlide.container-fluid
+blockchaincuties.com##.nobleSlide.container-fluid
+blockchaincuties.com##.partnersSlide.container-fluid
+blockchaincuties.com##.playableSlide.container-fluid
+blockchaincuties.com##.pressSlide.container-fluid
+blockchaincuties.com##.promo_line_bg
+blockchaincuties.com##.quest-how-to
+blockchaincuties.com##.requestSlide.container-fluid
+blockchaincuties.com##.rewardSlide.container-fluid
+blockchaincuties.com##.socialWidget
+blockchaincuties.com##.speciesSlide.container-fluid
+blockchaincuties.com##.teamSlide.container-fluid
+blockchaincuties.com##.trelloSlide.container-fluid
+blockchaincuties.com##.typesSlide.container-fluid
+blockchaincuties.com##.universeSlide.container-fluid
+blockchaincuties.com##.valuesSlide.container-fluid
+blockchaincuties.com##.vsSlide.container-fluid
+blockchaincuties.com##.walletContainer.container
+blockchaincuties.com##.walletSlide.container-fluid
+blockchaincuties.com##.weeklySlide.container-fluid
+blockchaincuties.com##.whatSlide.container-fluid
+blockchaincuties.com##a[class^="header-current-lang"]
+blockchaincuties.com##a[href^="/pets_unique"]
+blockchaincuties.com##div[id^="preloader2"]
+blockchaincuties.com##i.current-flag.flag
+blockchaincuties.com#?#div[class^="intro-"]
+blockchaincuties.com#?#div[class^="quest-how-to"]
+blockchaincuties.com#?#div[class^="quest-today-title"]
+blogtienao.com###elementor-popup-modal
+blogtienao.com##.td-visible-tablet-landscape
+blogtienao.com##div[data-advadstrackid^=""]
+blogtienao.com##table:first-child
+bscscan.com,etherscan.io,polygonscan.com##.d-flex.justify-content-center
+coin68.com##div[id^="footer"]
+coingecko.com##.mt-3.justify-content-center.row
+cryptocompare.com#@#.ccc-widget
+docs.google.com##.docs-butterbar-wrap
+en.oxforddictionaries.com###sidebar:style(margin-top:0!important;)
+favim.ru##.advert
+forum.xda-developers.com##.postbit-wrapper:if(.postbit-content > script:has-text(/xda_ad_choice/))
+fshare.vn###myElementz
+fshare.vn###page-content-asv
+fshare.vn##.bannerinfooter
+fshare.vn##.bannerinfooter_ags
+fshare.vn##.banner-text
+fshare.vn$$script
+fshare.vn/js
+g-pay.vn##.footer
+hardware.info#@#.cookiecontainer:not(body):not(html)
+imgur.com#?#img[id=image-element][src*=imgur]:style(margin-top: 0 !important)
+japanhub.com##.header.row
+mail.yandex.ru##.ns-view-folders > a:style(cursor:pointer!important;)
+mail.yandex.ru##.ns-view-folders:style(background-image:none!important; cursor:auto!important;)
+metruyenchu.com###js-right-menu
+metruyenchu.com##.pb-3.text-center
+metruyenchu.com##.pt-2.text-center
+metruyenchu.com##a[target$="blank"]
+metruyenchu.com##div.d-flex.justify-content-center.mt-5
+metruyenchu.com/passback
+mmo4me.com##.p-body-sidebar
+mrcong.com###main-content > div.content:first-child > div.post-listing.archive-box:nth-child(3) > div.item-list
+mrcong.com###main-content > div.content:first-child > div:first-child > iframe
+mrcong.com$$script
+nudegirls4u.com###comments
+nudegirls4u.com##div[class^="sd-content"]
+nudegirls4u.com##h3[class^="sd-title"]
+nudegirls4u.com/_js/
+nudeok.com#$$script
+pling.com##.pui-sidebar-right
+plo.vn###videoDetail
+plo.vn##ul.site-header.right.btn-group
+rungvang.vn##.circle.facebook-messenger-avatar.facebook-messenger-avatar-type0
+searchenginejournal.com##.sss_slot
+softonic.com##.ov_opened.ov_modal_bkgnd_layer
+sourceforge.net###mirror
+sourceforge.net##.m-wide-widget.m-wide-projects-widget 
+sourceforge.net##aside[class$="wide-projects-widget"]
+sourceforge.net##div[class^="l-side-column"]
+sourceforge.net##section[id^="nels"]
+sourceforge.net#?#div[id$="mirror"]
+thanhnien.vn###credential_picker_container
+tuntiensinh.com##a[href*="bblive"]
+phongthuyso.vn###blockquote
+phongthuyso.vn###content_main > blockquote
+utm_source=propellerads$popup
+vk.com###apps_after > .page_block:nth-of-type(1)
+vk.com##:xpath(/html/body//div[div[@class="_post_content" and .//div[@class="wall_marked_as_ads"]]])
+vn-z.vn,voz.vn##.notice-content
+vozer.net###cng-fixed
+vozer.net##.pc
+mmo4me.com##div[class^="ads"]
+vozer.net##a[href*="/vnbit.org"][target=_blank]
+www.google.*##^script:has-text(consentCookiePayload)
+www.google.*##+js(acis, document.cookie, YES+)
+xamvn.io##center:first-child
+yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
+!!end-page
+##.chp_ads_blocker-overlay
+##.chp_ads_blocker_detector
+lmhmod.com##.form-comment
+lmhmod.com##img[data-src*="/ADS"]
+metruyenchu.com##.nh-read__alert
+metruyenchu.com/*/nang-cap
+##.Container--bottomBanners
+dappradar.com##section.Container__content.css-7ogr7e > div.sc-fmciRz.jAslrp
+voz.vn##div.v-responsive.v-xl > div.vm-placement
+##.hustle-popup
+##iframe[src*="//s.tradingview.com/"]
+/metruyenchu.com/assets/js/mobile.js
+metruyenchu.com##.pt-3.text-center
+###bk-link1
+###bk-link2
+##div[class^="banner-style"]
+linksvip.net##center
+linksvip.net##div[style^="padding-bottom"]
+@@||www.freelancer.com^$important,document
+##div[class*="share-buttons"]
+##div[class*="box-social"]
+##.box-social-media
+##.banner-contact
+##.widget.sticky-product
+##.fade.form-popup
+###pop_up_bao_gia
+##.post-banner-middle
+###banner-bottom
